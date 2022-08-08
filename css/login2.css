@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+}
+header{
+    width: 988px;
+    margin: 0px auto;
+    height: 38px;
+    overflow: hidden;
+}
+.header-left p{
+    font-size: 12px;
+    line-height: 38px;
+}
+.header-left a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #c00;
+}
+.header-left a:hover{
+    text-decoration: underline;
+    color: rgb(234, 69, 69);
+}
+.header-right a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #666;
+    line-height:38px
+}
+.header-right a:hover{
+    text-decoration: underline;
+    color: #498dd6;
+}
+.header-left{
+    float: left;
+}
+.header-right{
+    float:right;
+    font-size: 12px;
+    color: #ccc;
+}
+nav{
+    height: 85px;
+    background-color: #86ddfa;
+    overflow: hidden;
+}
+
+
+.nav-top-left{
+    margin-left: 10px;
+    float: left;
+}
+.nav-top-left img{
+    margin: 20px 0px;
+    height: ;
+}
+.nav-top-right{
+    float: right;
+    margin-top: 47px;
+}
+.nav-top-right p{
+    font-size: 12px;
+    color: #666;
+    line-height: 38px;
+}
+.nav-top-right a{
+    font-size: 12px;
+    color: #0091d5;
+    line-height: 38px;
+    text-decoration: none;
+}
+.nav-top-right a:hover{
+    text-decoration: underline;
+}
+.nav-top{
+    margin: 0px auto;
+    width: 988px;
+    height: 85px;
+}
+main{
+    background-color: #86ddfa;
+    /* overflow: hidden; */
+    /* height: 100vh; */
+    overflow: hidden;
+
+}
+.main-big{
+    height: 480px;
+    width: 988px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #7cbabd;
+    /* overflow: hidden; */
+}
+
+.main-left{
+    float: left;
+    height: 480px;
+    width: 660px;
+    /* margin-left: -204px; */
+    background-color: rgb(255, 255, 255);
+}
+.main-right{
+    float: left;
+    height: 480px;
+    width: 328px;
+    background-color: #f4f4f4;
+}
+
+
+
+.main-left01{
+    margin-left: 95px;
+    padding: 20px 0px 30px;
+}
+.main-left01 p{
+    font-size: 20px;
+}
+.main-left02{
+    float: left;
+    width: 95px;
+    height: 408px;
+}
+.main-left03{
+    float: left;
+    width: 390px;
+    height: 280px;
+    /* background-color: rgba(192, 224, 192,0.3); */
+}
+.main-left04{
+    float: left;
+    width: 175px;
+    height: 280px;
+
+}
+.main-left05{
+    float: left;
+    width: 565px;
+    height: 128px;
+}
+.main-left07{
+    width: 298px;
+    height: 36px;
+}
+.main-left07 button{
+    width: 298px;
+    height: 36px;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    font-size: 16px;
+    background-color: #e42713;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    border: none;
+    margin-left: 85px;
+}
+.main-left07 button:hover{
+    cursor: pointer;
+    background:rgb(221, 86, 86);
+}
+.main-left08{
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.main-left08 p{
+    font-size: 12px;
+}
+.main-left08 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #36f;
+}
+.title {
+    color: #999;
+    font-size: 14px;
+    border-bottom: dashed 1px #ccc;
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: "宋体";
+    margin-top: 98px;
+}
+.main-left09{
+    border: 1px solid #ccc;
+    height: 36px;
+    width: 296px;
+    float: left;
+    margin-bottom: 32px;
+}
+.main-left10{
+    border: 1px solid #ccc;
+    height: 36px;
+    width: 296px;
+    float: left;
+    margin-bottom: 32px;
+}
+.main-left11{
+    border: 1px solid #ccc;
+    height: 36px;
+    width: 296px;
+    float: left;
+    margin-bottom: 32px;
+}
+.main-left12{
+    border: 1px solid #ccc;
+    height: 36px;
+    width: 150px;
+    float: left;
+    margin-bottom: 32px;
+}
+
+.name, .pwd, .code, .mail{
+    float: left;
+    height: 36px;
+    width: 85px;
+    margin-bottom: 32px;
+}
+.main-left label{
+    float:right;
+    line-height: 36px;
+    margin-right: 3px;
+    font-size: 14px;
+}
+.main-left03 input{
+    border: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    outline: none;
+    width: 250px;
+}
+.main-left12 input{
+    width: 120px;
+}
+#code{
+    width: 115px;
+}
+.code-img img{
+    height: 38px;
+    width: 74px;
+}
+.code-img{
+    float: left;
+    margin-bottom: 32px;
+}
+.code-img a{
+    margin-top: 24px;
+    font-size: 12px;
+    color: #adadad;
+    margin-left: 17px;
+}
+.main-left12{
+    margin-right: 10px;
+}
+.main-left10{
+    background: url("../img/register2-icon2.jpg") no-repeat 275px 6px;
+}
+.main-left11{
+    background: url("../img/register2-icon4.jpg") no-repeat 275px 6px;
+}
+.main-left13{
+    /* width: 100px; */
+    /* height: 38px; */
+}
+.main-left13 p{
+    line-height: 38px;
+    font-size: 14px;
+}
+.main-left13 span{
+    background: #f0f9ff;
+    padding:15px 8px;
+    color: #498dd6;
+    cursor:
+     pointer;
+}
+.main-left13 span:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+
+.main-right01{
+    height: 184px;
+    width: 290px;
+    margin-left: 19px;
+    margin-top: 6px;
+}
+
+.qq:hover, .wx:hover ,.wy:hover, .wb:hover{
+    box-shadow: 0px 3px 10px 3px rgb(229, 225, 225);
+    box-shadow: 3px 0px 10px 3px rgb(227, 224, 224);
+}
+.qq, .wx ,.wy, .wb{
+    margin:9px 9px;
+    background: #fff;
+    float: left;
+    height: 71px;
+    width: 127px;
+}
+.main-right01 img{
+    height: 54px;
+    width: 54px;
+    padding: 8px 0 8px 11px;
+}
+.main-right01 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #797979;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.zh{
+    margin-top: 22px;
+    /* margin-right: 11px; */
+    float: right;
+}
+.zh a{
+    padding: 7px;
+}
+.main-right01 a:hover{
+    text-decoration: underline;
+}
+.main-right02{
+    margin-top: 75px;
+    margin-left: 135px;
+}
+.main-right02 a{
+    text-decoration: none;
+    color: #6f6f6f;
+}
+.main-right02 a:hover{
+    color: #498dd6;
+}
+
+
+footer{
+    height: 110px;
+    background-color: #86ddfa;
+
+}
+.center{
+    width: 988px;
+    margin: 0px auto;
+    background-color: #86ddfa;
+}
+.center p{
+    font-size: 12px;
+    line-height: 22px;
+}
+.footer-left{
+    float: left;
+    width: 295px;
+    margin-top: 18px;
+    margin-left: 84px;
+}
+.footer-right{
+    float: left;
+    width: 372px;
+    margin-top: 18px;
+    margin-left: 155px;
+}
